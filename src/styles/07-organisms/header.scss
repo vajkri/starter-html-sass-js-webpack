@@ -1,0 +1,15 @@
+@import "src/styles/themeSettings";
+
+$headerBackground: $colorGrey300;
+
+.o-header {
+  padding: $spacingSm 0;
+
+  background: $headerBackground;
+}
+
+.o-header__inner {
+  display: flex;
+  align-item: center;
+  justify-content: space-between;
+}
