@@ -1,3 +1,5 @@
+@import "./spacing";
+
 // Border & border radius size
 $borderSize: 1px;
 $borderSizeLg: 3px;
@@ -10,6 +12,9 @@ $borderRadiusLg: 20px;
 $contentWidthNarrow: 1000px;
 $contentWidth: 1260px;
 $contentWidthWide: 1640px;
+
+// Content top spacer (spacer between header and page-content)
+$contentTopSpacer: $spacingLg;
 
 // Responsive multipliers
 // Used for declaring responsive adjustments
