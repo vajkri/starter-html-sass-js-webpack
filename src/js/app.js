@@ -1,4 +1,3 @@
-import '../styles/app.scss';
-import 'retinajs';
+import "../styles/index.scss";
 
-console.info('Hola!');
+console.info("Hola!");

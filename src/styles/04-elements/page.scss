@@ -1,0 +1,20 @@
+@import "src/styles/themeSettings";
+
+html {
+  font-family: $fontFamilySansSerif;
+  font-size: $fontSizeRemBase;
+  line-height: $lineHeightLg;
+  color: $colorDark;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @include mq("sm") {
+    font-size: $fontSizeRemBaseDesktop;
+  }
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
