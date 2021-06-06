@@ -1,4 +1,5 @@
 @import "src/styles/themeSettings";
+@import "src/styles/01-settings/organisms/header";
 
 .m-site-nav {
   display: flex;
@@ -8,9 +9,11 @@
 
 .m-site-nav__link {
   margin-left: $spacingBase;
+
+  color: $headerColor;
   transition: color $easeBase $transTimeBase;
 
   &:hover {
-    color: $colorDarkHover;
+    color: $headerColorHover;
   }
 }

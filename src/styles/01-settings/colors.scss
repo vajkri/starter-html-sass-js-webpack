@@ -1,5 +1,5 @@
 // Brand colors
-$colorPrimary: dodgerblue;
+$colorPrimary: #8b9e70;
 
 // Utility colors
 $colorLight: #ffffff;
@@ -8,7 +8,7 @@ $colorGrey100: #3d3d3d;
 $colorGrey200: #888888;
 $colorGrey300: #d0d4d7;
 
-$colorLightHover: darken($colorLight, 10%);
+$colorLightHover: darken($colorLight, 20%);
 $colorDarkHover: lighten($colorDark, 20%);
 $colorGrey100Hover: darken($colorGrey100, 8%);
 

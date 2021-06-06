@@ -1,6 +1,7 @@
 // Font families
-$fontFamilySansSerif: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
-	'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+$fontFamilySansSerif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+  "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  sans-serif;
 
 // Font weights
 $fontWeightRegular: 400;
@@ -11,7 +12,8 @@ $fontWeightBold: 700;
 $fontSizeRemBase: 14px;
 $fontSizeRemBaseDesktop: 16px;
 
-$fontSizeH1: 1.75rem;
+$fontSizeH1Desktop: 4.5rem;
+$fontSizeH1: 3rem;
 $fontSizeH2: 1.325rem;
 $fontSizeH3: 1rem;
 

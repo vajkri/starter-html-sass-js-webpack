@@ -17,6 +17,10 @@ h6 {
 
 h1 {
   font-size: $fontSizeH1;
+
+  @include mq("md") {
+    font-size: $fontSizeH1Desktop;
+  }
 }
 
 h2 {

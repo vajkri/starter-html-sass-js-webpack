@@ -1,15 +1,30 @@
 @import "src/styles/themeSettings";
-
-$headerBackground: $colorGrey300;
+@import "src/styles/01-settings/organisms/header";
 
 .o-header {
+  margin-bottom: $headerMarginBottom;
   padding: $spacingSm 0;
+  position: relative;
 
   background: $headerBackground;
+  color: $headerColor;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: calc(100% - 50px);
+
+    position: absolute;
+    right: 0;
+    bottom: $headerBgImgBottomPos;
+
+    background: $headerBgImg no-repeat right bottom/contain;
+  }
 }
 
 .o-header__inner {
   display: flex;
-  align-item: center;
+  align-items: center;
   justify-content: space-between;
 }
