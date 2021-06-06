@@ -1,10 +1,10 @@
 // Global spacing units
-$spacingBase: 20px;
+$spacingBase: 20px !default;
 
-$spacingXs: $spacingBase / 4;
-$spacingSm: $spacingBase / 2;
-$spacingLg: $spacingBase * 2;
-$spacingXl: $spacingBase * 5;
+$spacingXs: $spacingBase / 4 !default;
+$spacingSm: $spacingBase / 2 !default;
+$spacingLg: $spacingBase * 2 !default;
+$spacingXl: $spacingBase * 5 !default;
 
 // Content top spacing
-$spacingContentTop: $spacingLg;
+$spacingContentTop: $spacingLg !default;

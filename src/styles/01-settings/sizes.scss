@@ -1,35 +1,35 @@
 @import "./spacing";
 
 // Border & border radius size
-$borderSize: 1px;
-$borderSizeLg: 3px;
+$borderSize: 1px !default;
+$borderSizeLg: 3px !default;
 
-$borderRadiusSm: 5px;
-$borderRadius: 10px;
-$borderRadiusLg: 20px;
+$borderRadiusSm: 5px !default;
+$borderRadius: 10px !default;
+$borderRadiusLg: 20px !default;
 
 // Content width
-$contentWidthNarrow: 1000px;
-$contentWidth: 1260px;
-$contentWidthWide: 1640px;
+$contentWidthNarrow: 1000px !default;
+$contentWidth: 1260px !default;
+$contentWidthWide: 1640px !default;
 
 // Content top spacer (spacer between header and page-content)
-$contentTopSpacer: $spacingLg;
+$contentTopSpacer: $spacingLg !default;
 
 // Responsive multipliers
 // Used for declaring responsive adjustments
 // to e.g. font-sizes, and icons
-$mobileMultiplier: 0.85;
-$mobileMultiplierSubtle: 0.925;
+$mobileMultiplier: 0.85 !default;
+$mobileMultiplierSubtle: 0.925 !default;
 
 // Component specific
-$headerHeight: 60px;
+$headerHeight: 60px !default;
 
 // Icon Sizes
-$iconSizeMd: 24px;
-$iconSizeLg: 48px;
+$iconSizeMd: 24px !default;
+$iconSizeLg: 48px !default;
 
 // Button Sizes
-$buttonSmHeight: 30px;
-$buttonMdHeight: 36px;
-$buttonLgHeight: 44px;
+$buttonSmHeight: 30px !default;
+$buttonMdHeight: 36px !default;
+$buttonLgHeight: 44px !default;

@@ -1,16 +1,16 @@
 // Brand colors
-$colorPrimary: #8b9e70;
+$colorPrimary: #8b9e70 !default;
 
 // Utility colors
-$colorLight: #ffffff;
-$colorDark: #282828;
-$colorGrey100: #3d3d3d;
-$colorGrey200: #888888;
-$colorGrey300: #d0d4d7;
+$colorLight: #ffffff !default;
+$colorDark: #282828 !default;
+$colorGrey100: #3d3d3d !default;
+$colorGrey200: #888888 !default;
+$colorGrey300: #d0d4d7 !default;
 
-$colorLightHover: darken($colorLight, 20%);
-$colorDarkHover: lighten($colorDark, 20%);
-$colorGrey100Hover: darken($colorGrey100, 8%);
+$colorLightHover: darken($colorLight, 20%) !default;
+$colorDarkHover: lighten($colorDark, 20%) !default;
+$colorGrey100Hover: darken($colorGrey100, 8%) !default;
 
-$colorPositive: #7ede28;
-$colorNegative: #ff421e;
+$colorPositive: #7ede28 !default;
+$colorNegative: #ff421e !default;
