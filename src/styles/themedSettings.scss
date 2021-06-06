@@ -1,0 +1,21 @@
+/* =================================
+   themedSettings.scss
+
+   THEME SETTING OVERRIDES
+   ================================= */
+
+@import "./baseSettings";
+
+/**
+ * #1 - THEMED SETTINGS
+ */
+$colorPrimary: #9bc7ff;
+
+/**
+ * #1.1 THEMED COMPONENT SETTINGS
+ */
+$headerColor: $colorDark;
+$headerColorHover: $colorDarkHover;
+$headerBgImg: url("../images/chair.png");
+$headerBgImgBottomPos: -150px;
+$headerMarginBottom: 150px;
