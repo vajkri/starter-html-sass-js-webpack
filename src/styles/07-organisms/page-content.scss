@@ -1,5 +1,6 @@
 @import "src/styles/themeSettings";
 
 .o-page-content {
+  flex-grow: 1;
   margin-top: $contentTopSpacer;
 }
