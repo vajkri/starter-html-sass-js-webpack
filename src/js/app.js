@@ -1,4 +1,4 @@
-import "../styles/baseStyles.scss";
-//import "../styles/themedStyles.scss";
+import "../styles/index.scss";
+//import "../styles/themedIndex.scss";
 
 console.info("Hola!");
