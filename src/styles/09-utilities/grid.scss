@@ -19,6 +19,10 @@
  *	</div>
  */
 
+// TODO: add optional responsive support
+// E.g. .u-grid--sm, .u-grid--lg-max
+// E.g. .u-grid-cols-sm--3, .u-grid-cols-lg-max--3
+
 .u-grid {
   display: grid;
   grid-gap: $gridGap;
@@ -94,3 +98,12 @@ $gap-sizes: (
     grid-column: span #{$i} / span #{$i};
   }
 }
+
+$media-query-types: (
+  null: null,
+  ":max": $spacingXs,
+  "--sm": $spacingSm,
+  "--lg": $spacingLg,
+  "--xl": $spacingXl,
+  "--none": 0
+) !default;
