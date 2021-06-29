@@ -62,13 +62,15 @@ const config = {
     new MiniCssExtractPlugin({
       filename: "css/[name].css"
     }),
-    new CopyWebpackPlugin([
-      {
-        from: path.resolve(__dirname, "src", "images"),
-        to: path.resolve(__dirname, "dist", "images"),
-        toType: "dir"
-      }
-    ])
+    new CopyWebpackPlugin({
+      patterns: [
+        {
+          from: path.resolve(__dirname, "src", "images"),
+          to: path.resolve(__dirname, "dist", "images"),
+          toType: "dir"
+        }
+      ],
+    }),
   ]
 };
 
