@@ -3,41 +3,41 @@
    ================================= */
 
 /**
- * #3 - GENERIC
+ * #4 - GENERIC
  */
-@import "./03-generic/box-sizing";
-@import "./03-generic/normalize";
-@import "./03-generic/reset";
+@import "./04-generic/box-sizing";
+@import "./04-generic/normalize";
+@import "./04-generic/reset";
 
 /**
- * #4 - ELEMENTS
+ * #5 - ELEMENTS
  */
-@import "./04-elements/anchor";
-@import "./04-elements/button";
-@import "./04-elements/headings";
-@import "./04-elements/image";
-@import "./04-elements/list";
-@import "./04-elements/page";
+@import "./05-elements/anchor";
+@import "./05-elements/button";
+@import "./05-elements/headings";
+@import "./05-elements/image";
+@import "./05-elements/list";
+@import "./05-elements/page";
 
 /**
- * #5 - ATOMS
+ * #6 - ATOMS
  */
-@import "./05-atoms/logo";
+@import "./06-atoms/logo";
 
 /**
- * #6 - MOLECULES
+ * #7 - MOLECULES
  */
-@import "./06-molecules/masthead";
-@import "./06-molecules/site-nav";
-@import "./06-molecules/usp";
+@import "./07-molecules/masthead";
+@import "./07-molecules/site-nav";
+@import "./07-molecules/usp";
 
 /**
- * #7 - ORGANISMS
+ * #8 - ORGANISMS
  */
-@import "./07-organisms/footer";
-@import "./07-organisms/header";
-@import "./07-organisms/page";
-@import "./07-organisms/page-content";
+@import "./08-organisms/footer";
+@import "./08-organisms/header";
+@import "./08-organisms/page";
+@import "./08-organisms/page-content";
 
 /**
  * #9 - UTILITIES

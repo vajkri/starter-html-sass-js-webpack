@@ -5,16 +5,16 @@
 /**
  * #1 - SETTINGS
  */
-@import "./01-settings/behavior";
 @import "./01-settings/breakpoints";
 @import "./01-settings/colors";
 @import "./01-settings/grid";
+@import "./01-settings/motion";
 @import "./01-settings/sizes";
 @import "./01-settings/spacing";
 @import "./01-settings/typography";
 
 /**
- * #2 - TOOLS
+ * #3 - TOOLS
  */
-@import "./02-tools/hyphen";
-@import "./02-tools/media";
+@import "./03-tools/hyphen";
+@import "./03-tools/media";

@@ -1,18 +1,14 @@
 // Font families
-$fontFamilySansSerif: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
-  "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-  sans-serif !default;
+$fontFamily: 'Barlow', sans-serif !default;
 
 // Font weights
 $fontWeightRegular: 400 !default;
-$fontWeightSemiBold: 500 !default;
-$fontWeightBold: 700 !default;
+$fontWeightSemiBold: 600 !default;
 
 // Font sizes
 $fontSizeRemBase: 14px !default;
 $fontSizeRemBaseDesktop: 16px !default;
 
-$fontSizeH1Desktop: 4.5rem !default;
 $fontSizeH1: 3rem !default;
 $fontSizeH2: 1.325rem !default;
 $fontSizeH3: 1rem !default;

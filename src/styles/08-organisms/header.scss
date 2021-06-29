@@ -1,5 +1,5 @@
-@import "src/styles/baseSettings";
-@import "src/styles/01-settings/organisms/header";
+@import "../baseSettings";
+@import "../02-component-settings/organisms/header";
 
 .o-header {
   margin-bottom: $headerMarginBottom;

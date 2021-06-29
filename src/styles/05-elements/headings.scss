@@ -1,4 +1,4 @@
-@import "src/styles/baseSettings";
+@import "../baseSettings";
 
 h1,
 h2,
@@ -10,17 +10,13 @@ h6 {
   margin-bottom: 0.5rem;
 
   line-height: $lineHeightBase;
-  font-weight: $fontWeightBold;
+  font-weight: $fontWeightSemiBold;
 
   @include hyphen;
 }
 
 h1 {
   font-size: $fontSizeH1;
-
-  @include mq("md") {
-    font-size: $fontSizeH1Desktop;
-  }
 }
 
 h2 {

@@ -1,16 +1,19 @@
 // Brand colors
-$colorPrimary: #8b9e70 !default;
+$colorPrimary: #004874 !default;
+$colorSecondary: #D73F12 !default;
+$colorAccent: #FF7B26 !default;
 
 // Utility colors
+$colorSpot: #FFE920 !default;
 $colorLight: #ffffff !default;
-$colorDark: #282828 !default;
-$colorGrey100: #3d3d3d !default;
-$colorGrey200: #888888 !default;
-$colorGrey300: #d0d4d7 !default;
+$colorDark: #000000 !default;
+$colorDark80: #333333 !default;
+$colorDark50: #808080 !default;
 
-$colorLightHover: darken($colorLight, 20%) !default;
-$colorDarkHover: lighten($colorDark, 20%) !default;
-$colorGrey100Hover: darken($colorGrey100, 8%) !default;
-
-$colorPositive: #7ede28 !default;
-$colorNegative: #ff421e !default;
+// Signal colors
+$colorSuccess: #31C050 !default;
+$colorSuccessSubdued: #31C050 !default;
+$colorError: #E53E3E !default;
+$colorErrorSubdued: #E53E3E !default;
+$colorWarning: $colorSpot !default;
+$colorInfo: #004874 !default;

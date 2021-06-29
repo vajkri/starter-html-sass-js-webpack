@@ -1,7 +1,7 @@
-@import "src/styles/baseSettings";
+@import "../baseSettings";
 
 html {
-  font-family: $fontFamilySansSerif;
+  font-family: $fontFamily;
   font-size: $fontSizeRemBase;
   line-height: $lineHeightLg;
   color: $colorDark;

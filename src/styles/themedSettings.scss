@@ -9,13 +9,13 @@
 /**
  * #1 - THEMED SETTINGS
  */
-$colorPrimary: #9bc7ff;
+$colorPrimary: #adc48c;
 
 /**
  * #1.1 THEMED COMPONENT SETTINGS
  */
 $headerColor: $colorDark;
-$headerColorHover: $colorDarkHover;
-$headerBgImg: url("../images/chair.png");
-$headerBgImgBottomPos: -150px;
-$headerMarginBottom: 150px;
+$headerColorHover: $colorDark80;
+$headerBgImg: url("../images/monstera.png");
+$headerBgImgBottomPos: 0;
+$headerMarginBottom: unset;
