@@ -5,44 +5,56 @@
 /**
  * #4 - GENERIC
  */
-@import "./04-generic/box-sizing";
-@import "./04-generic/normalize";
-@import "./04-generic/reset";
+@import './04-generic/box-sizing';
+@import './04-generic/normalize';
+@import './04-generic/reset';
 
 /**
  * #5 - ELEMENTS
  */
-@import "./05-elements/anchor";
-@import "./05-elements/button";
-@import "./05-elements/headings";
-@import "./05-elements/image";
-@import "./05-elements/list";
-@import "./05-elements/page";
+@import './05-elements/anchor';
+@import './05-elements/button';
+@import './05-elements/headings';
+@import './05-elements/image';
+@import './05-elements/list';
+@import './05-elements/page';
 
 /**
  * #6 - ATOMS
  */
-@import "./06-atoms/logo";
+@import './06-atoms/icon';
+@import './06-atoms/image';
+@import './06-atoms/logo';
 
 /**
  * #7 - MOLECULES
  */
-@import "./07-molecules/masthead";
-@import "./07-molecules/site-nav";
-@import "./07-molecules/usp";
+@import './07-molecules/button';
+@import './07-molecules/masthead';
+@import './07-molecules/panel';
+@import './07-molecules/site-nav';
+@import './07-molecules/usp';
 
 /**
  * #8 - ORGANISMS
  */
-@import "./08-organisms/footer";
-@import "./08-organisms/header";
-@import "./08-organisms/page";
-@import "./08-organisms/page-content";
+@import './08-organisms/footer';
+@import './08-organisms/header';
+@import './08-organisms/page';
+@import './08-organisms/page-content';
 
 /**
- * #9 - UTILITIES
+ * #09 - VIEWS
+ *
+ * Styles used on specific views
+ * Namespace with folder and file within Views
  */
-@import "./09-utilities/container";
-@import "./09-utilities/grid";
-@import "./09-utilities/hide";
-@import "./09-utilities/spacings";
+@import '09-views/uiToolbox';
+
+/**
+ * #99 - UTILITIES
+ */
+@import '99-utilities/container';
+@import '99-utilities/grid';
+@import '99-utilities/hide';
+@import '99-utilities/spacings';

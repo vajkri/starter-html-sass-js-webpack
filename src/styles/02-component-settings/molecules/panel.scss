@@ -1,0 +1,11 @@
+@import '../../baseSettings';
+
+$panelSpacing: $spacingBase !default;
+$panelRadius: $borderRadius !default;
+
+$panelBgDefault: $colorBgLightSubdued !default;
+$panelBgPrimary: $colorBgPrimary !default;
+$panelBgSpot: $colorBgSpot !default;
+$panelColorDefault: $colorTextDark !default;
+$panelColorPrimary: $colorTextLight !default;
+$panelColorSpot: $colorTextDark !default;

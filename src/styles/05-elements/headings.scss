@@ -1,4 +1,4 @@
-@import "../baseSettings";
+@import '../baseSettings';
 
 h1,
 h2,
@@ -6,29 +6,31 @@ h3,
 h4,
 h5,
 h6 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
 
-  line-height: $lineHeightBase;
-  font-weight: $fontWeightSemiBold;
+	line-height: $lineHeightBase;
+	font-weight: $fontWeightSemiBold;
 
-  @include hyphen;
+	&:not(.no-hyphen) {
+		@include hyphen;
+	}
 }
 
 h1 {
-  font-size: $fontSizeH1;
+	font-size: $fontSizeH1;
 }
 
 h2 {
-  font-size: $fontSizeH2;
+	font-size: $fontSizeH2;
 }
 
 h3 {
-  font-size: $fontSizeH3;
+	font-size: $fontSizeH3;
 }
 
 h4,
 h5,
 h6 {
-  font-size: $fontSizeBase;
+	font-size: $fontSizeBase;
 }

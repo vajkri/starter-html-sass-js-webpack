@@ -1,0 +1,26 @@
+@import "../baseSettings";
+@import "../02-component-settings/atoms/icon";
+
+.a-icon {
+  display: flex;
+  flex-shrink: 0;
+  fill: currentColor;
+  width: $iconSize;
+  height: $iconSize;
+
+  svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.a-icon--sm {
+  width: $iconSizeSm;
+  height: $iconSizeSm;
+}
+
+.a-icon--lg {
+  width: $iconSizeLg;
+  height: $iconSizeLg;
+}

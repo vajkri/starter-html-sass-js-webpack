@@ -1,0 +1,19 @@
+@import '../02-component-settings/molecules/panel';
+
+.m-panel {
+	padding: $panelSpacing;
+
+	border-radius: $panelRadius;
+	background: $panelBgDefault;
+	color: $panelColorDefault;
+}
+
+.m-panel--primary {
+	background: $panelBgPrimary;
+	color: $panelColorPrimary;
+}
+
+.m-panel--spot {
+	background: $panelBgSpot;
+	color: $panelColorSpot;
+}

@@ -1,0 +1,26 @@
+@import "../baseSettings";
+
+.m-button {
+  display: inline-flex;
+  padding: $spacingSm;
+
+  border-radius: $borderRadiusSm;
+  background-color: $colorActionPrimary;
+
+  color: $colorLight;
+
+  transition: background-color $easeBase $transTimeSm;
+
+  &:hover {
+    background-color: $colorActionPrimaryHover;
+  }
+}
+
+.m-button--neutral {
+  background-color: $colorActionLightSubdued;
+  color: $colorDark;
+
+  &:hover {
+    background-color: $colorActionLightSubduedHover;
+  }
+}

@@ -1,19 +1,55 @@
+/**
+ * Color definitions
+ */
+
 // Brand colors
 $colorPrimary: #004874 !default;
-$colorSecondary: #D73F12 !default;
-$colorAccent: #FF7B26 !default;
+$colorPrimary50: #80a4ba !default;
+$colorPrimary20: #ccdae3 !default;
+$colorSecondary: #d73f12 !default;
+$colorAccent: #ff7b26 !default;
+
+$colorPrimaryHover: #14567f !default;
 
 // Utility colors
-$colorSpot: #FFE920 !default;
+$colorSpot: #ffe920 !default;
 $colorLight: #ffffff !default;
 $colorDark: #000000 !default;
 $colorDark80: #333333 !default;
 $colorDark50: #808080 !default;
+$colorDark5: #f2f2f2 !default;
 
 // Signal colors
-$colorSuccess: #31C050 !default;
-$colorSuccessSubdued: #31C050 !default;
-$colorError: #E53E3E !default;
-$colorErrorSubdued: #E53E3E !default;
+$colorSuccess: #31c050 !default;
+$colorSuccessSubdued: #31c050 !default;
+$colorError: #e53e3e !default;
+$colorErrorSubdued: #e53e3e !default;
 $colorWarning: $colorSpot !default;
 $colorInfo: #004874 !default;
+
+/**
+ * Color implementations
+ */
+
+// Text colors
+$colorTextDark: $colorDark !default;
+$colorTextDarkSubdued: $colorDark50 !default;
+$colorTextPrimary: $colorPrimary !default;
+$colorTextPrimarySubdued: $colorPrimary50 !default;
+$colorTextLight: $colorLight !default;
+$colorTextError: $colorError !default;
+$colorTextSuccess: $colorSuccess !default;
+
+// Background colors
+$colorBgLight: $colorLight !default;
+$colorBgLightSubdued: $colorDark5 !default;
+$colorBgPrimary: $colorPrimary !default;
+$colorBgPrimarySubdued: $colorPrimary20 !default;
+$colorBgSpot: $colorSpot !default;
+
+// Action colors
+$colorActionPrimary: $colorPrimary !default;
+$colorActionPrimaryHover: $colorPrimaryHover !default;
+
+$colorActionLightSubdued: $colorDark5 !default;
+$colorActionLightSubduedHover: #e9e9e9 !default;

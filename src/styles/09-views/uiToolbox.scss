@@ -1,0 +1,23 @@
+@import '../baseSettings';
+
+.v-ui-toolbox-section {
+	&:not(:last-child) {
+		margin-bottom: $spacingXl;
+	}
+}
+
+.v-ui-toolbox-component {
+	&:not(:last-child) {
+		margin-bottom: $spacingLg;
+	}
+}
+
+.v-ui-toolbox-variant {
+	&:not(:last-child) {
+		margin-bottom: $spacingLg;
+	}
+}
+
+.v-ui-toolbox-has-hyphen {
+	@include hyphen;
+}
