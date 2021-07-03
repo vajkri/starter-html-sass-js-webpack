@@ -1,0 +1,79 @@
+@import '../02-component-settings/molecules/input-radio';
+
+.m-input-radio {
+	display: flex;
+	cursor: pointer;
+	font-size: $radioBaseSize;
+
+	&.is-inline {
+		display: inline-flex;
+	}
+
+	&.is-disabled {
+		pointer-events: none;
+		cursor: not-allowed;
+		opacity: $radioDisabledOpacity;
+	}
+}
+
+.m-input-radio__input {
+}
+
+.m-input-radio__marker {
+	flex-shrink: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: $radioBoxSize;
+	height: $radioBoxSize;
+	margin-right: 0.625em;
+
+	position: relative;
+
+	border: $radioBorderSize solid $radioBorderColor;
+	background-color: $radioBackground;
+	border-radius: 20em;
+
+	// Radio dot
+	&::before {
+		content: '';
+		display: block;
+		width: $radioDotSize;
+		height: $radioDotSize;
+
+		background: $radioDotColor;
+		border-radius: 20em;
+
+		transform: scale(0);
+	}
+
+	.m-input-radio.has-hidden-label & {
+		margin-right: 0;
+	}
+
+	// Transition radio dot in, when checked
+	.m-input-radio__input:checked + &::before {
+		transform: scale(1);
+		transition: transform $radioTransDur $radioTransEase;
+	}
+
+	.m-input-radio__input:focus + & {
+		box-shadow: 0 0 $radioOutlineSpread $radioOutlineSize $radioOutlineColor;
+	}
+}
+
+.m-input-radio__inner-wrapper {
+	margin-top: calc(#{$radioBoxSize} / 2 - 0.5em);
+	color: $radioLabelColorActive;
+	line-height: 1;
+
+	// Change label color, when checked
+	.m-input-radio__input:checked ~ & {
+		color: $radioLabelColorActive;
+	}
+}
+
+.m-input-radio__label-text {
+	font-size: 1em;
+	font-weight: $radioLabelWeight;
+}

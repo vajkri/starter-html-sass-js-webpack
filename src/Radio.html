@@ -1,0 +1,18 @@
+<!-- TODO: translate {vars} to razor -->
+<label class="m-input-radio {disabled ? 'is-disabled' : ''} {hiddenLabel ? 'has-hidden-label' : ''}" for="{id}">
+	<input
+		class="m-input-radio__input u-hide-visually"
+		type="radio"
+		checked="{checked}"
+		name="{name}"
+		id="{id}"
+		value="{value}"
+		disabled="{disabled}"
+		required="{required}"
+		onChange="{onChange}"
+	/>
+	<span class="m-input-radio__marker"></span>
+	<span class="m-input-radio__inner-wrapper {hiddenLabel ? 'u-hide-visually' : ''}">
+		{label && <span class="m-input-radio__label-text">{label}</span>}
+	</span>
+</label>

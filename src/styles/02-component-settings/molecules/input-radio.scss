@@ -1,0 +1,25 @@
+@import '../../baseSettings';
+
+// TODO: create "Border" section under "Color Implementations"
+//  in 01-settings/colors.scss and get colors from there instead
+
+$radioBaseSize: $fontSizeBase;
+$radioBackground: $colorLight;
+$radioBorderSize: $borderSize;
+$radioBorderColor: $colorPrimary;
+$radioOutlineSpread: 0;
+$radioOutlineSize: '2px';
+$radioOutlineColor: rgba($colorPrimary, 0.5);
+
+$radioBoxSize: 1.25em;
+$radioDotSize: 0.5em;
+$radioDotColor: $colorPrimary;
+
+$radioLabelWeight: $fontWeightRegular;
+$radioLabelColor: $colorDark;
+$radioLabelColorActive: $colorDark;
+
+$radioTransDur: $transTimeBase;
+$radioTransEase: $easeElastic;
+
+$radioDisabledOpacity: 0.5;

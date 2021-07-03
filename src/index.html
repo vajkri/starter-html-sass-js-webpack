@@ -1,71 +1,101 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>Title</title>
-    <!-- Add icons here -->
-  </head>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="" />
+		<meta name="author" content="" />
+		<title>Title</title>
+		<!-- Add icons here -->
+	</head>
 
-  <body class="o-page">
-    <!-- HEADER -->
-    <header class="o-header">
-      <div class="o-header__inner u-container u-container--wide">
-        <a class="a-logo" href="/">
-          Logo
-        </a>
-        <nav class="m-site-nav">
-          <a class="m-site-nav__link" href="#!">Home</a>
-          <a class="m-site-nav__link" href="#!">About</a>
-          <a class="m-site-nav__link" href="#!">Services</a>
-          <a class="m-site-nav__link" href="#!">Contact</a>
-        </nav>
-      </div>
+	<body class="o-page">
+		<!-- HEADER -->
+		<header class="o-header">
+			<div class="o-header__inner u-container u-container--wide">
+				<a class="a-logo" href="/">
+					Logo
+				</a>
+				<nav class="m-site-nav">
+					<a class="m-site-nav__link" href="#!">Home</a>
+					<a class="m-site-nav__link" href="#!">About</a>
+					<a class="m-site-nav__link" href="#!">Services</a>
+					<a class="m-site-nav__link" href="#!">Contact</a>
+				</nav>
+			</div>
 
-      <div class="u-my--xl u-container u-container--wide">
-        <div class="m-masthead">
-          <h1 class="u-mb--lg">Lorem ipsum dolor sit amet consectetur</h1>
-          <p>
-            Animi autem commodi corporis dolor dolorum, eos error expedita
-            explicabo facilis harum minus nihil optio pariatur perspiciatis
-            praesentium.
-          </p>
-        </div>
-      </div>
-    </header>
+			<div class="u-my--xl u-container u-container--wide">
+				<div class="m-masthead">
+					<h1 class="u-mb--lg">Lorem ipsum dolor sit amet consectetur</h1>
+					<p>
+						Animi autem commodi corporis dolor dolorum, eos error expedita explicabo facilis harum minus nihil optio
+						pariatur perspiciatis praesentium.
+					</p>
+				</div>
+			</div>
+		</header>
 
-    <!-- PAGE CONTENT -->
-    <div class="o-page-content u-container">
-      <ul class="m-usp u-grid u-grid-cols--3 u-grid-gap--lg u-mt--lg u-mb--xl">
-        <li>
-          <h2>Accusantium nemo odio</h2>
-          <p>
-            Amet autem doloremque eius fugit neque non numquam unde, voluptatem!
-            A accusamus cupiditate soluta vel?
-          </p>
-        </li>
-        <li>
-          <h2>Ducimus perferendis</h2>
-          <p>
-            Autem blanditiis cupiditate dolor dolorem earum eligendi ipsam quod
-            repellendus. Consequuntur dolorum quas repellat.
-          </p>
-        </li>
-        <li>
-          <h2>Excepturi fugit iusto</h2>
-          <p>
-            Aperiam exercitationem officiis vero voluptate. Doloribus eos magni
-            maiores molestias rerum sapiente voluptatibus voluptatum!
-          </p>
-        </li>
-      </ul>
-    </div>
+		<!-- PAGE CONTENT -->
+		<div class="o-page-content u-container">
+			<fieldset>
+				<legend>What is your favorite pizza topping?</legend>
+				<label class="m-input-radio" for="pizzaToppingTofu">
+					<input
+						class="m-input-radio__input u-hide-visually"
+						type="radio"
+						name="pizzaTopping"
+						id="pizzaToppingTofu"
+						value="tofu"
+						required="required"
+					/>
+					<span class="m-input-radio__marker"></span>
+					<span class="m-input-radio__inner-wrapper">
+						<span class="m-input-radio__label-text">Tofu</span>
+					</span>
+				</label>
+				<label class="m-input-radio" for="pizzaToppingBroccoli">
+					<input
+						class="m-input-radio__input u-hide-visually"
+						type="radio"
+						name="pizzaTopping"
+						id="pizzaToppingBroccoli"
+						value="broccoli"
+						required="required"
+					/>
+					<span class="m-input-radio__marker"></span>
+					<span class="m-input-radio__inner-wrapper">
+						<span class="m-input-radio__label-text">Broccoli</span>
+					</span>
+				</label>
+			</fieldset>
 
-    <!-- FOOTER -->
-    <footer class="o-footer u-container u-container--wide">
-      Copyright 2021
-    </footer>
-  </body>
+			<ul class="m-usp u-grid u-grid-cols--3 u-grid-gap--lg u-mt--lg u-mb--xl">
+				<li>
+					<h2>Accusantium nemo odio</h2>
+					<p>
+						Amet autem doloremque eius fugit neque non numquam unde, voluptatem! A accusamus cupiditate soluta vel?
+					</p>
+				</li>
+				<li>
+					<h2>Ducimus perferendis</h2>
+					<p>
+						Autem blanditiis cupiditate dolor dolorem earum eligendi ipsam quod repellendus. Consequuntur dolorum quas
+						repellat.
+					</p>
+				</li>
+				<li>
+					<h2>Excepturi fugit iusto</h2>
+					<p>
+						Aperiam exercitationem officiis vero voluptate. Doloribus eos magni maiores molestias rerum sapiente
+						voluptatibus voluptatum!
+					</p>
+				</li>
+			</ul>
+		</div>
+
+		<!-- FOOTER -->
+		<footer class="o-footer u-container u-container--wide">
+			Copyright 2021
+		</footer>
+	</body>
 </html>
